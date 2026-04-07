@@ -4,6 +4,8 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Demo from './component/Demo'
 import { Demo2 } from './component/Demo2'
+import Arrow from './component/Arrow'
+import StateEx from './component/State'
 
 function App() {
     // const name="Pragya";
@@ -37,25 +39,25 @@ function App() {
 
 
     //event handling
-    function abc(){
-      alert("function call");
-    }
-    function apple(){
-      alert("You are click on apple button");
-    }
-    function banana(){
-      alert("You are click on banana button");
-    }
+    // function abc(){
+    //   alert("function call");
+    // }
+    // function apple(){
+    //   alert("You are click on apple button");
+    // }
+    // function banana(){
+    //   alert("You are click on banana button");
+    // }
 
 
   return (
     <div>
       {/* <h1>HI, my name is Pragya Kesharwani</h1>
       <h1>Inside the app component</h1> */}
-      <h1>Welcome in new Project</h1>
+      {/* <h1>Welcome in new Project</h1>
       <button onClick={abc}>Click me</button>
       <button onClick={apple}>Apple</button>
-      <button onClick={banana}>Banana</button>
+      <button onClick={banana}>Banana</button> */}
       {/* <h1>Use of variable with jsx</h1>
       <h1>value of variable {name}</h1>
       <h3>{x+y}</h3>
@@ -68,6 +70,8 @@ function App() {
       {/* <Employee></Employee>
       <Demo></Demo>
       <Demo2></Demo2> */}
+      <Arrow></Arrow>
+      <StateEx></StateEx>
        
     </div>
   )
