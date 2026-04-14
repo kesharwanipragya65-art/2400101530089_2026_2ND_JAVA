@@ -6,6 +6,8 @@ import Demo from './component/Demo'
 import { Demo2 } from './component/Demo2'
 import Arrow from './component/Arrow'
 import StateEx from './component/State'
+import HookEx from './component/Hooks'
+import Toggle from './component/Assignment1'
 
 function App() {
     // const name="Pragya";
@@ -70,8 +72,13 @@ function App() {
       {/* <Employee></Employee>
       <Demo></Demo>
       <Demo2></Demo2> */}
-      <Arrow></Arrow>
-      <StateEx></StateEx>
+      {/* <Arrow></Arrow> */}
+      {/* <StateEx></StateEx> */}
+      
+      
+      <HookEx></HookEx>
+      <Toggle></Toggle>
+
        
     </div>
   )
